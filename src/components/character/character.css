@@ -1,0 +1,21 @@
+.wrapper{
+  background-color: rgb(255, 255, 255);
+}
+.char-wrapper {
+  position: relative;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  height: 100vh;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.title{
+  padding:20px;
+}
+

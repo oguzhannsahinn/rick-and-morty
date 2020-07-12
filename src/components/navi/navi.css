@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.navbarbrand img{
+  height: 75px;
+}
+.menu {
+  border-bottom: 4px solid #00b0c8;
+}
+.search-bar {
+  right: 2.5%;
+  position: absolute;
+  border: none;
+  padding: 10px;  
+  border: 1px solid #00b0c8;
+}
+
+@media only screen and (max-width: 600px) {
+  .search-bar {
+    right: unset;
+    position: unset;
+    width: 100%;
+  }
+  .navbarbrand {
+    width: 100%;
+    text-align: center;
+  }
+}
